@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<GridPane alignment="CENTER" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LoginController" fx:id="rootPane">
+    <Label alignment="CENTER" prefHeight="35.0" prefWidth="160.0" text="Login Test" GridPane.columnSpan="2">
+        <font>
+            <Font size="24.0" />
+        </font></Label>
+            <Button fx:id="login" prefHeight="45.0" prefWidth="80.0" text="Login" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button fx:id="signUp" prefHeight="45.0" prefWidth="80.0" text="SignUp" GridPane.columnIndex="1" GridPane.rowIndex="1" onAction="#signUpScreen"/>
+            <columnConstraints>
+                <ColumnConstraints />
+                <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints />
+      <RowConstraints />
+            </rowConstraints>
+        </GridPane>
